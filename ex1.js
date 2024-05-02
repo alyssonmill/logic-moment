@@ -1,11 +1,3 @@
-// Faça um algoritmo para coletar os seguintes dados de um carro: modelo, ano e 
-// valor. Salve as informações em arrays;
-
-// Seu algoritmo deve permitir o cadastro de apenas 3 carros;
-
-// Ao final mostre no console as informações do carro mais barato e do mais 
-// caro respectivamente e a média dos valores de todos os carros;
-
 class Car {
     constructor(model, year, price){
         this.model = model;
