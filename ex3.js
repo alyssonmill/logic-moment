@@ -46,9 +46,25 @@
 // Input: hello, 3
 // Output: hello hello hello
 
-let userWord = "Hello";
-let userNum = 9;
+// let userWord = "Hello";
+// let userNum = 9;
 
-for (let i = 0; i < userNum; i++) {
-    console.log(userWord)
+// for (let i = 0; i < userNum; i++) {
+//     console.log(userWord)
+// }
+
+// Exercise 5: Count to N
+// Write a program that asks the user for a number N and then prints all numbers from 1 to N.
+
+// Example:
+
+// Input: 5
+// Output: 1 2 3 4 5
+
+let userNum = 6;
+
+console.log("Input: " + userNum)
+
+for(let i = 1; i <= userNum; i++){
+    console.log("Output: " + i)
 }
