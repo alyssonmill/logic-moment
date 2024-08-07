@@ -31,9 +31,24 @@
 // Input: 3, 5
 // Output: 8
 
-let num1 = Number(prompt("Write a number"));
-let num2 = Number(prompt("Write a number"));
+// let num1 = Number(prompt("Write a number"));
+// let num2 = Number(prompt("Write a number"));
 
-let result = num1 + num2;
+// let result = num1 + num2;
 
-alert("The sum is: " + result)
+// alert("The sum is: " + result)
+
+// Exercise 4: Print a Word Multiple Times
+// Write a program that asks the user for a word and a number, then prints the word that many times.
+
+// Example:
+
+// Input: hello, 3
+// Output: hello hello hello
+
+let userWord = "Hello";
+let userNum = 9;
+
+for (let i = 0; i < userNum; i++) {
+    console.log(userWord)
+}
