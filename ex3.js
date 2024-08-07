@@ -15,15 +15,10 @@
 // Input: 7
 // Output: Odd
 
-// let num = prompt("Insert a number");
+let num = prompt("Write a number");
 
-let num = 4;
-let result = num / 2;
-
-if (num % 2) {
-    console.log("Input" + "-" + num);
-    console.log("Output" + "-" + "Even")
+if (num % 2 === 0) {
+    console.log("Even number");
 }else{
-    console.log("Input" + "-" + num);
-    console.log("Output" + "-" + "Odd")
+    console.log("Odd number");
 }
