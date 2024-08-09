@@ -69,10 +69,10 @@
 //     console.log("Output: " + i)
 // }
 
-let num1 = Number(prompt("Write a number"));
-let num2 = Number(prompt("Write a number"));
-let num3 = Number(prompt("Write a number"));
+// let num1 = Number(prompt("Write a number"));
+// let num2 = Number(prompt("Write a number"));
+// let num3 = Number(prompt("Write a number"));
 
-let largest = Math.max(num1,num2,num3);
+// let largest = Math.max(num1,num2,num3);
 
-console.log("That is the largest number: " + largest);
+// console.log("That is the largest number: " + largest);
