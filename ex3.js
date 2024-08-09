@@ -61,10 +61,18 @@
 // Input: 5
 // Output: 1 2 3 4 5
 
-let userNum = 6;
+// let userNum = 6;
 
-console.log("Input: " + userNum)
+// console.log("Input: " + userNum)
 
-for(let i = 1; i <= userNum; i++){
-    console.log("Output: " + i)
-}
+// for(let i = 1; i <= userNum; i++){
+//     console.log("Output: " + i)
+// }
+
+let num1 = Number(prompt("Write a number"));
+let num2 = Number(prompt("Write a number"));
+let num3 = Number(prompt("Write a number"));
+
+let largest = Math.max(num1,num2,num3);
+
+console.log("That is the largest number: " + largest);
